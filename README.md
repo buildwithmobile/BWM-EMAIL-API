@@ -1,63 +1,120 @@
-# BWM Mail API
+<div align="center">
+  <img src="assets/bwm-mail-api-banner.svg" alt="BWM Mail API — Developer documentation" width="100%" />
+  <br />
+  <p><strong>Developer documentation · API references · Integration guides</strong></p>
+  <p>
+    <a href="https://bwmemailapi.ct.ws/">Website</a> ·
+    <a href="https://bwmemailapi.ct.ws/documentation">Documentation</a> ·
+    <a href="https://bwmemailapi.ct.ws/api-reference">API Reference</a> ·
+    <a href="https://bwmemailapi.ct.ws/integration-guides">Integration Guides</a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/docs-live-16A34A?style=for-the-badge" alt="Live documentation" />
+    <img src="https://img.shields.io/badge/API-REST-2563EB?style=for-the-badge" alt="REST API" />
+    <img src="https://img.shields.io/badge/Made%20by-Build%20With%20Mobile-7C3AED?style=for-the-badge" alt="Made by Build With Mobile" />
+  </p>
+</div>
 
-Developer documentation and integration references for **BWM Mail API**, a transactional email API by **Build With Mobile (BWM)**.
+---
 
-BWM Mail API helps developers connect application email workflows through an API, configure their own email delivery setup, and integrate email functionality into websites, backend services, and AI-assisted coding workflows.
+## Overview
 
-## Official resources
+**BWM Mail API** is a transactional email API by **[Build With Mobile](https://buildwithmobile.ct.ws/)**. This repository is the developer documentation hub for connecting email workflows to websites, backend services, and application projects.
 
-- Website: https://bwmemailapi.ct.ws/
-- Features: https://bwmemailapi.ct.ws/features
-- Pricing: https://bwmemailapi.ct.ws/pricing
-- Documentation: https://bwmemailapi.ct.ws/documentation
-- API reference: https://bwmemailapi.ct.ws/api-reference
-- Integration guides: https://bwmemailapi.ct.ws/integration-guides
-- FAQ: https://bwmemailapi.ct.ws/faq
-- Service status: https://bwmemailapi.ct.ws/status
-- Contact: https://bwmemailapi.ct.ws/contact
+> **Documentation principle:** The hosted API reference is the source of truth for endpoint paths, methods, authentication, request fields, responses, errors, and account limits. This repository does not guess undocumented API behavior.
 
-The hosted documentation and API reference are the source of truth for current endpoints, request fields, response formats, authentication requirements, limits, and supported features. This repository provides an organized developer-facing index and integration guidance; do not assume an endpoint or parameter that is not listed in the live API reference.
+## Explore the documentation
 
-## What you can find here
+| Resource | Description |
+|---|---|
+| [Getting started](docs/getting-started.md) | Account setup, project creation, API key safety, and first-request checklist |
+| [Integration guides](docs/integration-guides.md) | Language, framework, webhook, and AI-assisted integration guidance |
+| [Security best practices](docs/security.md) | Credential protection and secure account workflows |
+| [Documentation index](docs/README.md) | All repository guides in one place |
+| [Contributing](CONTRIBUTING.md) | Documentation contribution standards |
+| [Security policy](SECURITY.md) | How to report a security concern |
 
-- [Getting started](docs/getting-started.md)
-- [Integration guides](docs/integration-guides.md)
-- [Security guidance](docs/security.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security reporting](SECURITY.md)
+## Official product links
+
+<div align="center">
+
+| [🌐 Website](https://bwmemailapi.ct.ws/) | [📘 Docs](https://bwmemailapi.ct.ws/documentation) | [⚡ API Reference](https://bwmemailapi.ct.ws/api-reference) |
+|:---:|:---:|:---:|
+| [✨ Features](https://bwmemailapi.ct.ws/features) | [💳 Pricing](https://bwmemailapi.ct.ws/pricing) | [🧩 Integrations](https://bwmemailapi.ct.ws/integration-guides) |
+| [❓ FAQ](https://bwmemailapi.ct.ws/faq) | [🟢 Service Status](https://bwmemailapi.ct.ws/status) | [✉️ Contact](https://bwmemailapi.ct.ws/contact) |
+
+</div>
 
 ## Integration areas
 
-The official documentation covers workflows and examples for common developer environments, including:
+The hosted guides and product documentation cover workflows for:
 
-- cURL / HTTP requests
-- PHP
-- Node.js
-- Python
-- OTP and account-verification email workflows
-- Webhook integration and signature verification, where enabled for the account
-- AI coding assistants such as ChatGPT, Claude, Gemini, Cursor, Windsurf, and GitHub Copilot
+- **HTTP / cURL** — test documented API requests directly.
+- **PHP** — connect server-side PHP applications.
+- **Node.js** — integrate with Node-based backends.
+- **Python** — connect Python services and applications.
+- **Account email workflows** — OTP, verification, and other supported transactional messages.
+- **Webhooks** — implement event handling when enabled and documented for your account.
+- **AI coding assistants** — provide official references to ChatGPT, Claude, Gemini, Cursor, Windsurf, or GitHub Copilot.
 
-Check the live integration guide for the latest supported examples and exact configuration.
+See the [live integration guide](https://bwmemailapi.ct.ws/integration-guides) for current examples and availability.
 
 ## Quick start
 
-1. Create or sign in to your BWM Mail API account from the official website.
-2. Create a project and generate an API key from the dashboard.
-3. Review the authentication instructions in the [official documentation](https://bwmemailapi.ct.ws/documentation).
-4. Follow the exact request format in the [API reference](https://bwmemailapi.ct.ws/api-reference).
-5. Use the matching [integration guide](https://bwmemailapi.ct.ws/integration-guides) for your language or framework.
-6. Test with a non-production recipient before enabling the workflow for real users.
+1. Visit the [BWM Mail API dashboard](https://bwmemailapi.ct.ws/).
+2. Sign in or create an account.
+3. Create a project and generate an API key.
+4. Read the [getting started guide](docs/getting-started.md).
+5. Copy the exact request format from the [API reference](https://bwmemailapi.ct.ws/api-reference).
+6. Follow the relevant [integration guide](https://bwmemailapi.ct.ws/integration-guides).
+7. Test with a non-production recipient before going live.
 
-Keep API keys on the server. Never commit live credentials to source control, expose them in browser JavaScript, or paste them into public issue reports.
+### Configure your secret
 
-## Documentation accuracy
+Keep credentials on your server. Add your key to your deployment environment or secret manager:
 
-API behavior can change as the hosted service evolves. Before publishing a new code sample, verify its endpoint, HTTP method, headers, required fields, response fields, error codes, and account limits against the current API reference. If a detail is not documented, label it as unverified instead of guessing.
+```env
+BWM_MAIL_API_KEY=YOUR_API_KEY
+```
 
-## Project
+This is an environment-variable example, not an API request. Never commit a real key, expose it in browser JavaScript, include it in a mobile app bundle, or paste it into a public AI prompt.
 
-**BWM Mail API**  
-Built by [Build With Mobile](https://buildwithmobile.ct.ws/).
+## Repository structure
 
-For product support, use the [official contact page](https://bwmemailapi.ct.ws/contact).
+```text
+BWM-EMAIL-API/
+├── assets/
+│   └── bwm-mail-api-banner.svg
+├── docs/
+│   ├── README.md
+│   ├── getting-started.md
+│   ├── integration-guides.md
+│   └── security.md
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── README.md
+└── SECURITY.md
+```
+
+## Documentation standards
+
+- Verify every API example against the current hosted API reference.
+- Do not invent endpoint paths, parameters, response fields, SDK package names, or pricing.
+- Use placeholders such as `YOUR_API_KEY` in all public examples.
+- Clearly label features that depend on account configuration.
+- Keep guides concise, reproducible, and safe for production use.
+
+## Support
+
+For product and account support, use the [official contact page](https://bwmemailapi.ct.ws/contact). For repository documentation improvements, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+<div align="center">
+  <sub>Built with care by <a href="https://buildwithmobile.ct.ws/">Build With Mobile</a> · BWM Mail API</sub>
+</div>
