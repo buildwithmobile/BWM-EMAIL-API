@@ -1,27 +1,33 @@
-# Contributing
+# Contributing to BWM Mail API Docs
 
-Thanks for helping improve the BWM Mail API developer documentation.
+Thank you for helping make the BWM Mail API documentation clearer and more useful.
 
-## Before opening a change
+## Before you contribute
 
-- Check the live documentation: https://bwmemailapi.ct.ws/documentation
-- Check the API reference: https://bwmemailapi.ct.ws/api-reference
-- Check the integration guides: https://bwmemailapi.ct.ws/integration-guides
+Review the current product references:
 
-## Documentation rules
+- [Official documentation](https://bwmemailapi.ct.ws/documentation)
+- [API reference](https://bwmemailapi.ct.ws/api-reference)
+- [Integration guides](https://bwmemailapi.ct.ws/integration-guides)
 
-1. Do not invent endpoint paths, HTTP methods, headers, parameters, response fields, error codes, SDK package names, or pricing.
-2. Verify every API example against the current official API reference.
-3. Use placeholders for credentials, such as `YOUR_API_KEY`.
-4. Never commit real API keys, passwords, OTPs, reset tokens, or customer data.
-5. Keep examples concise and include expected prerequisites.
-6. Clearly label behavior that depends on account configuration.
-7. Prefer links to the official source of truth when a detail may change.
+## Contribution standards
 
-## Suggested pull request details
+1. **Be accurate.** Never invent endpoint paths, HTTP methods, headers, parameters, response fields, error codes, SDK package names, or pricing.
+2. **Verify examples.** Check every API example against the current official API reference.
+3. **Protect secrets.** Use placeholders such as `YOUR_API_KEY`; never commit real credentials, OTPs, reset tokens, or customer data.
+4. **Explain prerequisites.** Mention required account configuration and environment variables.
+5. **Keep it focused.** Prefer concise steps, readable headings, and tested examples.
+6. **Flag uncertainty.** If a behavior is not confirmed by official docs, label it as unverified instead of presenting it as fact.
 
-Include:
-- What page or integration is being updated
-- Which official source was checked
-- Whether code samples were tested
-- Any product behavior that still needs confirmation
+## Pull request checklist
+
+- [ ] The change solves one clear documentation problem.
+- [ ] Links and relative paths are valid.
+- [ ] API details match the current official reference.
+- [ ] Code samples contain placeholders, not live credentials.
+- [ ] No private data, secrets, or internal account details are included.
+- [ ] Screenshots, if any, do not expose personal or account information.
+
+## Reporting a documentation issue
+
+Use the repository [issue tracker](https://github.com/buildwithmobile/BWM-EMAIL-API/issues) and include the page, section, expected correction, and a sanitized reference.
