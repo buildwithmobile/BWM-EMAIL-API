@@ -1,19 +1,35 @@
-# BWM Mail API Documentation
+<div align="center">
 
-This folder contains developer-facing documentation for BWM Mail API.
+# BWM Mail API Docs
 
-## Guides
+**A practical developer handbook for integrating BWM Mail API.**
 
-- [Getting started](getting-started.md): account setup, API key handling, and first integration checklist.
-- [Integration guides](integration-guides.md): language/framework guide directory and implementation checklist.
-- [Security](security.md): credential handling, server-side delivery, and safe testing practices.
+[Getting Started](getting-started.md) · [Integration Guides](integration-guides.md) · [Security](security.md)
 
-## Official reference pages
+</div>
 
-- [Product documentation](https://bwmemailapi.ct.ws/documentation)
+---
+
+## Documentation map
+
+| Guide | What it covers |
+|---|---|
+| [Getting started](getting-started.md) | Account setup, project creation, API key handling, and first-request checklist |
+| [Integration guides](integration-guides.md) | HTTP, PHP, Node.js, Python, webhooks, and AI-assisted workflows |
+| [Security](security.md) | Secrets, account verification workflows, and production safety |
+
+## Official references
+
+- [Product website](https://bwmemailapi.ct.ws/)
+- [Hosted documentation](https://bwmemailapi.ct.ws/documentation)
 - [API reference](https://bwmemailapi.ct.ws/api-reference)
 - [Integration guides](https://bwmemailapi.ct.ws/integration-guides)
+- [Features](https://bwmemailapi.ct.ws/features)
 - [FAQ](https://bwmemailapi.ct.ws/faq)
-- [Status](https://bwmemailapi.ct.ws/status)
+- [Service status](https://bwmemailapi.ct.ws/status)
 
-Use the hosted API reference for exact endpoint paths, methods, headers, request/response schemas, errors, and limits. This repository intentionally does not invent undocumented API details.
+## Accuracy and versioning
+
+The hosted API reference is authoritative for endpoint paths, methods, authentication, schemas, error codes, and limits. This repository is a companion guide; it intentionally avoids undocumented request examples or assumptions.
+
+If you find a mismatch, please [open an issue](https://github.com/buildwithmobile/BWM-EMAIL-API/issues) with the relevant page and a sanitized description. Never include API keys or customer data.
