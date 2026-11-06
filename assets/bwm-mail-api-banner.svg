@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">BWM Mail API</title>
+  <desc id="desc">Developer documentation and integration guides by Build With Mobile</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071326"/><stop offset=".55" stop-color="#101d3c"/><stop offset="1" stop-color="#24134a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#2563eb" stop-opacity=".35"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#93c5fd" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1600" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="28" fill="url(#grid)"/>
+  <circle cx="1330" cy="120" r="330" fill="url(#glow)"/>
+  <circle cx="1330" cy="120" r="190" fill="#6366f1" opacity=".12" filter="url(#shadow)"/>
+  <g transform="translate(110 112)">
+    <rect x="0" y="0" width="116" height="116" rx="30" fill="#0c1c37" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M25 39Q25 31 34 31H82Q91 31 91 39V77Q91 85 82 85H34Q25 85 25 77Z" fill="none" stroke="#e0f2fe" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M29 38L58 61L87 38" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 80L50 62M84 80L66 62" fill="none" stroke="#e0f2fe" stroke-opacity=".8" stroke-width="4" stroke-linecap="round"/>
+    <text x="58" y="145" text-anchor="middle" fill="#93c5fd" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">BWM</text>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="270" y="178" fill="#ffffff" font-size="70" font-weight="800" letter-spacing="-2">BWM Mail API</text>
+    <text x="274" y="235" fill="#bfdbfe" font-size="28" font-weight="500">Developer Documentation &amp; Integration Hub</text>
+    <rect x="274" y="278" width="440" height="2" rx="1" fill="url(#accent)"/>
+    <text x="274" y="328" fill="#cbd5e1" font-size="22">API references  ·  SDK workflows  ·  Secure email integration</text>
+    <text x="274" y="390" fill="#7dd3fc" font-size="19" font-weight="700" letter-spacing="2">BUILT BY BUILD WITH MOBILE</text>
+  </g>
+  <g transform="translate(1120 145)">
+    <rect x="0" y="0" width="330" height="220" rx="22" fill="#0b1730" stroke="#64748b" stroke-opacity=".45" stroke-width="2"/>
+    <rect x="22" y="22" width="286" height="34" rx="9" fill="#172b4d"/>
+    <circle cx="42" cy="39" r="5" fill="#fb7185"/><circle cx="60" cy="39" r="5" fill="#fbbf24"/><circle cx="78" cy="39" r="5" fill="#34d399"/>
+    <rect x="25" y="82" width="110" height="9" rx="4" fill="#38bdf8" opacity=".9"/>
+    <rect x="25" y="105" width="248" height="8" rx="4" fill="#64748b" opacity=".8"/>
+    <rect x="25" y="127" width="205" height="8" rx="4" fill="#64748b" opacity=".55"/>
+    <rect x="25" y="160" width="170" height="35" rx="9" fill="url(#accent)"/>
+    <text x="110" y="183" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">SEND EMAIL</text>
+  </g>
+</svg>
