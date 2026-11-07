@@ -16,7 +16,8 @@
 |---|---|
 | [Getting started](getting-started.md) | Account setup, project creation, API key handling, and first-request checklist |
 | [Integration guides](integration-guides.md) | HTTP, PHP, Node.js, Python, webhooks, and AI-assisted workflows |
-| [Security](security.md) | Secrets, account verification workflows, and production safety |\n| [Gmail SMTP setup](gmail-smtp-setup.md) | Free-to-start Gmail SMTP configuration, 2-Step Verification, App Password, and troubleshooting |
+| [Security](security.md) | Secrets, account verification workflows, and production safety |
+| [Gmail SMTP setup](gmail-smtp-setup.md) | Free-to-start Gmail SMTP configuration, 2-Step Verification, App Password, and troubleshooting |
 
 ## Official references
 
