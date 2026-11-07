@@ -29,7 +29,7 @@
 |---|---|
 | [Getting started](docs/getting-started.md) | Account setup, project creation, API key safety, and first-request checklist |
 | [Integration guides](docs/integration-guides.md) | Language, framework, webhook, and AI-assisted integration guidance |
-| [Security best practices](docs/security.md) | Credential protection and secure account workflows |
+| [Security best practices](docs/security.md) | Credential protection and secure account workflows |\n| [Gmail SMTP setup](docs/gmail-smtp-setup.md) | Connect a Gmail account through Own SMTP, with 2-Step Verification and App Password steps |
 | [Documentation index](docs/README.md) | All repository guides in one place |
 | [Contributing](CONTRIBUTING.md) | Documentation contribution standards |
 | [Security policy](SECURITY.md) | How to report a security concern |
@@ -49,7 +49,7 @@
 
 The hosted guides and product documentation cover workflows for:
 
-- **HTTP / cURL** — test documented API requests directly.
+- **Gmail SMTP** — configure a Gmail account through Own SMTP using a Google App Password.\n- **HTTP / cURL** — test documented API requests directly.
 - **PHP** — connect server-side PHP applications.
 - **Node.js** — integrate with Node-based backends.
 - **Python** — connect Python services and applications.
