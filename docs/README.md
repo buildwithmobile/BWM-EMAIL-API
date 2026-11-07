@@ -15,7 +15,7 @@
 | Guide | What it covers |
 |---|---|
 | [Getting started](getting-started.md) | Account setup, project creation, API key handling, and first-request checklist |
-| [Integration guides](integration-guides.md) | HTTP, PHP, Node.js, Python, webhooks, and AI-assisted workflows |
+| [Integration guides](integration-guides.md) | Step-by-step setup for PHP, Node.js, Python, Laravel, webhooks, and mobile/backend architecture |\n| [Code examples](../examples/README.md) | Copy-ready cURL, PHP, Node.js, Python, Laravel, and webhook starter files |
 | [Security](security.md) | Secrets, account verification workflows, and production safety |
 | [Gmail SMTP setup](gmail-smtp-setup.md) | Free-to-start Gmail SMTP configuration, 2-Step Verification, App Password, and troubleshooting |
 
