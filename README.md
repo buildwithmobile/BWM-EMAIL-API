@@ -28,7 +28,7 @@
 | Resource | Description |
 |---|---|
 | [Getting started](docs/getting-started.md) | Account setup, project creation, API key safety, and first-request checklist |
-| [Integration guides](docs/integration-guides.md) | Language, framework, webhook, and AI-assisted integration guidance |
+| [Integration guides](docs/integration-guides.md) | Step-by-step PHP, Node.js, Python, Laravel, webhook, and backend integration guidance |\n| [Code examples](examples/README.md) | Copy-ready cURL, PHP, Node.js, Python, Laravel, and webhook starter files |
 | [Security best practices](docs/security.md) | Credential protection and secure account workflows |\n| [Gmail SMTP setup](docs/gmail-smtp-setup.md) | Connect a Gmail account through Own SMTP, with 2-Step Verification and App Password steps |
 | [Documentation index](docs/README.md) | All repository guides in one place |
 | [Contributing](CONTRIBUTING.md) | Documentation contribution standards |
